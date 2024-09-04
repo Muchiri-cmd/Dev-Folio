@@ -12,18 +12,22 @@ export const navLinks = [
   {
     id: "about",
     title: "About",
+    emoji:"🤷🏽‍♂️"
   },
   {
     id: "resume",
     title: "Resume",
+    emoji:"📂"
   },
   {
     id: "projects",
     title: "Projects",
+    emoji:"🚧"
   },
   {
     id: "contact",
     title: "Contact",
+    emoji:"📬"
   }
 ];
 

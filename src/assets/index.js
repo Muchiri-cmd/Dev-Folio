@@ -5,6 +5,8 @@ import weather_app from './Projects/weather_app.png';
 import finance_app from './Projects/finance_app.png';
 import todo_app from './Projects/todo_app.png';
 import crm from './Projects/crm.png';
+import menu from './menu.svg'
+import close from './close.svg'
 
 export{
   mainlogo,
@@ -13,5 +15,8 @@ export{
   finance_app,
   todo_app,
   crm,
-  kiit
+  kiit,
+
+  menu,
+  close,
 }
