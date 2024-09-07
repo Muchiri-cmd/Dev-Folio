@@ -31,6 +31,28 @@ export const navLinks = [
   }
 ];
 
+const socialLinks = [
+  {
+    name: "LinkedIn",
+    icon: "fab fa-linkedin",
+    url: "https://www.linkedin.com/in/davis-muchiri-b4991b251/",
+  },
+  {
+    name: "GitHub",
+    icon: "fab fa-github",
+    url: "https://github.com/Muchiri-cmd",
+  },
+  {
+    name: "Twitter",
+    icon: "fab fa-twitter",
+    url: "https://x.com/davisdevelops",
+  },
+  {
+    name: "Instagram",
+    icon: "fab fa-instagram",
+    url: "https://www.instagram.com/davymuchirii/",
+  },
+];
 const services = [
   { title: "Software Development", icon: "fas fa-code" },
   { title: "Web Development", icon: "fas fa-laptop-code" },
@@ -151,4 +173,4 @@ const projects = [
   
 ];
 
-export { services, technologies, experiences, projects };
+export { socialLinks , services, technologies, experiences, projects};

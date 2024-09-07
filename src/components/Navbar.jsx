@@ -2,8 +2,7 @@ import React,{ useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 import { navLinks } from "../info"
 import { styles } from "../styles"
-import { mainlogo } from "../assets"
-import { menu,close } from "../assets"
+import { mainlogo, menu, close  } from "../assets"
 
 const Navbar = () => {
   // keep track of which section were on in the viewport
@@ -38,12 +37,13 @@ const Navbar = () => {
             className={`${section == link.title 
               ? "text-yellow-400"
               : "text-white"
-            } hover:text-[18px] font-medium cursor-pointer`}
+            } hover:text-[18px] font-medium cursor-pointer
+            text-[16px]`}
             onClick={()=> {
               setSection(`${link.title}`)
             }}
           >
-            <a href={`#${link.id}`}>{link.emoji} {link.title}</a>
+            <a href={`#${link.id}`}>{link.title}</a>
           </li>
         ))}
        </ul>
@@ -72,7 +72,7 @@ const Navbar = () => {
                       setToggle(!toggled)
                     }}
                   >
-                    <a href={`#${link.id}`}>{link.emoji} {link.title}</a>
+                    <a href={`#${link.id}`}>{link.title}</a>
                   </li>
                 ))}
              </ul>

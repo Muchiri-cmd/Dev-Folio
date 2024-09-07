@@ -7,6 +7,7 @@ import todo_app from './Projects/todo_app.png';
 import crm from './Projects/crm.png';
 import menu from './menu.svg'
 import close from './close.svg'
+import devimg from './dev.jpg'
 
 export{
   mainlogo,
@@ -19,4 +20,5 @@ export{
 
   menu,
   close,
+  devimg,
 }
