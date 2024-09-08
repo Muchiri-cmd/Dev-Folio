@@ -57,7 +57,9 @@ const services = [
   { title: "Software Development", icon: "fas fa-code" },
   { title: "Web Development", icon: "fas fa-laptop-code" },
   { title: "Mobile Development", icon: "fas fa-mobile-alt" },
-  { title: "CopyWriting", icon: "fas fa-pen-nib" }
+  { title: "SEO", icon: "fas fa-search" },
+  { title: "CopyWriting", icon: "fas fa-pen-nib" },
+  // { title: "Graphic Design", icon: "fas fa-palette" },
 ];
 
 const technologies = [
