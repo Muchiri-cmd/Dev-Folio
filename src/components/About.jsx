@@ -47,12 +47,12 @@ const About = () => {
           I build next-gen internet applications that solve real-world problems and drive meaningful results. 
           With a solid foundation in Computer Science and a commitment to continuous improvement, I’m dedicated to delivering innovative, scalable solutions that meet your needs.
           Whether you're looking for someone to collaborate on a project, solve complex challenges or drive business growth through technology, I'm ready to help.<br className="mt-4"></br>
-          <div className="mt-3">
-            <span>Easiest way to reach me ⬇️</span>
-            <p className='text-yellow-300'><a href="https://wa.me/+254104891414" target="_blank"><i className="fab fa-whatsapp"></i> Whatsapp Me</a></p>
-          </div>
+          <span>
+            <span>Easiest way to reach me ⬇️</span><br></br>
+            <span className='text-yellow-300'><a href="https://wa.me/+254104891414" target="_blank"><i className="fab fa-whatsapp"></i> Whatsapp Me</a></span>
+          </span>
         </motion.p>
-        <p className="mt-2 text-white text-[20px]">Some of the services i offer include:</p>
+        <p className="mt-3 text-white text-[20px]">Some of the services i offer include:</p>
         <div className="mt-10 flex flex-wrap gap-10">
           {services.map((service,index) => {
             return <Service key={service.title} index={index} {...service}/>

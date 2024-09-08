@@ -15,8 +15,13 @@ export const navLinks = [
     emoji:"🤷🏽‍♂️"
   },
   {
-    id: "resume",
-    title: "Resume",
+    id: "experience",
+    title: "Experience",
+    emoji:"📂"
+  },
+  {
+    id: "skills",
+    title: "Skills",
     emoji:"📂"
   },
   {
@@ -88,9 +93,21 @@ const experiences = [
     date: "January 2024 - Present",
     points: [
       "Developing and maintaining custom software projects, focusing on scalable and efficient solutions for various clients.",
-      "Collaborating closely with clients,developers and designers to deliver high-quality software solutions.",
+      "Collaborating closely with clients to deliver high-quality software solutions.",
       "Managing full project lifecycles from initial concept to final delivery, ensuring that projects are completed on time and within budget.",
       "Providing ongoing maintenance and support for existing projects, including troubleshooting and bug fixes.",
+    ],
+  },
+  {
+    title: "Backend (Django) Developer",
+    company: "Jim Luton Softwares",
+    icon: "",
+    iconBg: "#383E56",
+    date: " April 2024 - Present",
+    points: [
+     "Developing and maintaining custom CRM systems using Django, focusing on backend functionalities.",
+     "Developing and mainatining business applications that help in the management of business operations for clients",
+     "Developing softwares that integrate with third-party APIs to provide additional functionality to company systems.",
     ],
   },
   {
