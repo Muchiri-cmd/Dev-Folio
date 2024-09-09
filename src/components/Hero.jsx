@@ -19,7 +19,7 @@ const Hero = () => {
 </div>
 
 <div className="flex w-full  justify-between">
-  <div className="flex flex-col justify-center gap-4 flex-1">
+  <div className="flex-col justify-center gap-4 flex-1 hidden sm:flex">
     <div className='flex items-start'>
       <a href="resume.docx" download="resume.docx" className="relative inline-flex items-center justify-start overflow-hidden font-bold bg-transparent border-2 border-secondary text-secondary rounded-full px-4 py-2 group hover:font-bold transition-all duration-400 ease-out">
         <span className="relative z-10 pr-4 group-hover:text-white">Download CV</span>
@@ -40,7 +40,7 @@ const Hero = () => {
     </div>
   </div>
 
-  <img src={devimg} alt="developer-image" className="w-full max-w-[600px] object-contain opacity-92 flex-1" />
+  <img src={devimg} alt="developer-image" className="w-full max-w-[700px] object-contain opacity-92 flex-1" />
 
   <div className="hidden md:block flex-1">
     <ul>
@@ -57,7 +57,7 @@ const Hero = () => {
 
       </div>
       <div
-        className="absolute xs:bottom-0 bottom-32 w-full flex justify-center items-center"
+        className="absolute bottom-0 w-full flex justify-center items-center"
       >
           <a href="#about">
             <div

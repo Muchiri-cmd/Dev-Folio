@@ -18,7 +18,7 @@ const Footer = () => {
           ))  
         }
       </ul>
-      <p>Made with Love ❤️‍🔥
+      <p className="mt-10">Made with Love ❤️‍🔥
         <span className="text-yellow-300">Davis Muchiri</span>
       </p>
     </div>

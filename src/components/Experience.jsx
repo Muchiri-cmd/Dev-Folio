@@ -44,6 +44,26 @@ const Experience = () => {
          <p className={styles.sectionHeadText}>Experience</p>
          <h2 className={styles.sectionSubText}>technical xp.</h2>
       </motion.div>
+      <div className="flex flex-col justify-center gap-4 flex-1">
+        <div className='flex items-start'>
+          <a href="resume.docx" download="resume.docx" className="relative inline-flex items-center justify-start overflow-hidden font-bold bg-transparent border-2 border-secondary text-secondary rounded-full px-4 py-2 group hover:font-bold transition-all duration-400 ease-out">
+            <span className="relative z-10 pr-4 group-hover:text-white">Download CV</span>
+            <span className="relative z-10 inline-flex items-center justify-center text-white rounded-full p-2 ml-2">
+              <i className="fas fa-download"></i>
+            </span>
+            <span className="absolute inset-0 bg-secondary transform translate-x-full transition-transform duration-300 ease-in-out group-hover:translate-x-0"></span>
+          </a>
+        </div>
+        <div className="flex">
+          <a href="#projects" className="relative inline-flex items-center justify-start overflow-hidden font-bold bg-transparent border-2 border-secondary text-secondary rounded-full px-4 py-2 group hover:font-bold transition-all duration-400 ease-out">
+            <span className="relative z-10 pr-4 group-hover:text-white">View Projects</span>
+            <span className="relative z-10 inline-flex items-center justify-center text-white rounded-full p-2 ml-2">
+              👀
+            </span>
+            <span className="absolute inset-0 bg-secondary transform translate-x-full transition-transform duration-300 ease-in-out group-hover:translate-x-0"></span>
+          </a>
+        </div>
+      </div>
       <div
         className='mt-20 flex flex-col'
       >
