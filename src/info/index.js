@@ -63,7 +63,7 @@ const services = [
   { title: "Web Development", icon: "fas fa-laptop-code" },
   { title: "Mobile Development", icon: "fas fa-mobile-alt" },
   { title: "SEO", icon: "fas fa-search" },
-  { title: "CopyWriting", icon: "fas fa-pen-nib" },
+  // { title: "CopyWriting", icon: "fas fa-pen-nib" },
   // { title: "Graphic Design", icon: "fas fa-palette" },
 ];
 

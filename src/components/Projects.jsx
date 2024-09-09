@@ -7,26 +7,14 @@ import  { projects } from '../info'
 import { fadeIn,textVariant } from '../utils/motion';
 
 
-const Project = ({ index, name, description, technologies, image , code_repo, live_url }) => {
-  return(
-    <motion.div
-      variants={fadeIn("up","spring",index * 0.5, 0.75)}
-    >
-      <Tilt options={{ max:45,scale:1,speed:450}}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full hover:cursor-pointer"
-      >
-        <div
-          className="relative w-full h-[230px]"
-        >
-          <img
-            src={image}
-            alt={name}
-            className="w-full h-full object-cover rounded-2xl"
-          />
+const Project = ({ index, name, description, technologies, image, code_repo, live_url }) => {
+  return (
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+      <div className="bg-tertiary p-5 rounded-2xl sm:w-[600px] w-full relative">
+        <div className="relative w-full h-[230px]">
+          <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl" />
         </div>
-        <div
-          className="absolute bottom-3 right-3 flex gap-2"
-        >
+        <div className="absolute bottom-3 right-3 flex gap-2">
           {live_url && (
             <div
               onClick={() => window.open(live_url, "_blank")}
@@ -46,23 +34,22 @@ const Project = ({ index, name, description, technologies, image , code_repo, li
             />
           </div>
         </div>
-        <div
-          className="mt-5 "
-        >
+        <div className="mt-5">
           <h3 className="text-white font-bold text-[21px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px]">{description}</p> 
+          <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
         <div className="mt-4 flex flex-wrap gap-2 mb-8">
-            {technologies.map((tech,index) => (
-              <p key={tech.name} index={index} className="text-yellow-300 px-1 py-1 text-[12px]">
-                {tech.name}
-              </p>
-            ))}
+          {technologies.map((tech, index) => (
+            <p key={tech.name} className="text-yellow-300 px-1 py-1 text-[12px]">
+              -{tech.name}
+            </p>
+          ))}
         </div>
-      </Tilt>
+      </div>
     </motion.div>
-  )
-}
+  );
+};
+
 
 const Projects = () => {
   return (
