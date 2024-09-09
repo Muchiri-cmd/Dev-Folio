@@ -42,6 +42,7 @@ const Experience = () => {
         variants={textVariant()}
       >
          <p className={styles.sectionHeadText}>Experience</p>
+         <h2 className={styles.sectionSubText}>technical xp.</h2>
       </motion.div>
       <div
         className='mt-20 flex flex-col'

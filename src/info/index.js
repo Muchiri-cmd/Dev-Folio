@@ -71,7 +71,7 @@ const technologies = [
   { name: "HTML 5", icon: "devicon-html5-plain"},
   { name: "CSS 3", icon: "devicon-css3-plain" },
   { name: "Tailwind CSS", icon: "devicon-tailwindcss-plain" },
-  { name: "Python", icon: "devicon-python-plain" },
+  { name: "Python", icon: "devicon-python-plain" }, 
   { name: "Django", icon: "devicon-django-plain" },
   { name: "JavaScript", icon: "devicon-javascript-plain" },
   { name: "React JS", icon: "devicon-react-original" },
@@ -99,7 +99,7 @@ const experiences = [
     ],
   },
   {
-    title: "Backend (Django) Developer",
+    title: "Backend Developer",
     company: "Jim Luton Softwares",
     icon: "",
     iconBg: "#383E56",
@@ -111,7 +111,7 @@ const experiences = [
     ],
   },
   {
-    title: "Backend (Django) Developer",
+    title: "Backend Developer",
     company: "KIIT College",
     icon: kiit,
     iconBg: "#383E56",
@@ -138,6 +138,7 @@ const projects = [
     ],
     image: ecom_img,
     code_repo: "https://github.com/Muchiri-cmd/Ecom-Store",
+    live_url:"https://ecom-store-production.up.railway.app/"
   },
   {
     name: "Customer Relationship Management System",
@@ -150,6 +151,7 @@ const projects = [
     ],
     image: crm,
     code_repo: "https://github.com/Muchiri-cmd/SolarCRM",
+    live_url:"https://solarcrm.onrender.com/"
   },
   {
     name: "Finance App",
@@ -176,6 +178,7 @@ const projects = [
     ],
     image: weather_app,
     code_repo: "https://github.com/Muchiri-cmd/Weather-App/",
+    live_url:"https://muchiri-cmd.github.io/Weather-App/"
   },
   {
     name: "Todo List",
@@ -188,6 +191,7 @@ const projects = [
     ],
     image: todo_app,
     code_repo: "https://github.com/Muchiri-cmd/Todo-List",
+    live_url:"https://muchiri-cmd.github.io/Todo-List/"
   },
   
 ];

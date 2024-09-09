@@ -8,6 +8,8 @@ import crm from './Projects/crm.png';
 import menu from './menu.svg'
 import close from './close.svg'
 import devimg from './dev.jpg'
+import githubIcon from './github.png'
+
 
 export{
   mainlogo,
@@ -21,4 +23,5 @@ export{
   menu,
   close,
   devimg,
+  githubIcon,
 }
